@@ -10,12 +10,7 @@ cd json-maker
 
 Ensure that you have java commands enabled in the terminal
 # Ubuntu
-	sudo apt-get update
-	sudo apt-get install default-jre
-	sudo apt-get install default-jdk
-	sudo add-apt-repository ppa:webupd8team/java
-	sudo apt-get update
-	sudo apt-get install oracle-java9-installer
+	run install.sh and it will automatically install java to your terminal
 # windows
 	https://introcs.cs.princeton.edu/java/15inout/windows-cmd.html
 # Compile
