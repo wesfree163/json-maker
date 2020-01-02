@@ -1,0 +1,34 @@
+{
+    "Education": 
+			["Hampton University", 
+			 "     Bachelors of Science: Computer Science"
+			 ],
+    "Languages & Tools": 
+			["Java", 
+			 "   NetSuite Application Suite", 
+			 "   Oracle Java Development Kit", 
+			 "JavaScript", 
+			 "   ReactJs", 
+			 "   AngularJs", 
+			 "   Cross-Platform Mobile Development"
+			 ],
+    "Professional Experience": 
+			["Verizon Innovative Learning", 
+			 "   Systems Administrator   July 2017 - Present", 
+			 "TRIO Educational Talent Search", 
+			 "   HU Computer Science Department Representative", 
+			 "   Classroom Professor's Assistant"
+			 ],
+    "Tech Stack": 
+			["json.java", 
+			 "Geometric webpage programmed using the three.js library", 
+			 "kaioken.java"
+			 ],
+    "Projects": 
+			["Expo mobile IOS development", 
+			 "Convert professional resume to node package"
+			 ],
+    "Contact": 
+			["I'll be in touch."
+			 ]
+}

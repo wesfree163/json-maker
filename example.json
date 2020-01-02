@@ -1,0 +1,3 @@
+"bin":{
+	"<your package name>": "./index.js"
+}
