@@ -1,23 +1,35 @@
 # json-maker
 Executable java code that generates .json files based on user input
-# General info
+
+## Table of contents
+* [General info](#general-info)
+* [Setup](#setup)
+* [Features](#features)
+* [Ubuntu](#ubuntu)
+* [Windows](#windows)
+* [Compile](#compile)
+* [Run](#run)
+* [Features](#features)
+* [Contact](#contact)
+
+## General info
 json.java is used to automate the creation of .json files for varying purposes for example having a boilerplate.json file to use for testing cases with other JavaScript.
-# Setup
+## Setup
 
 	git clone https://github.com/wesfree163/json-maker
 
 	cd json-maker
 
 	Ensure that you have java commands enabled in the terminal
-# Ubuntu
+## Ubuntu
 	run install.sh and it will automatically install java to your terminal
-# windows
+## windows
 	https://introcs.cs.princeton.edu/java/15inout/windows-cmd.html
-# Compile
+## Compile
 	javac json.java
-# Run
+## Run
 	java json
-# Features
+## Features
 	Take this and use it anywhere
-# Contact
+## Contact
 	wesfree163@gmail.com
