@@ -9,7 +9,6 @@ Executable java code that generates .json files based on user input
 * [Windows](#windows)
 * [Compile](#compile)
 * [Run](#run)
-* [Features](#features)
 * [Contact](#contact)
 
 ## General info
@@ -29,7 +28,5 @@ json.java is used to automate the creation of .json files for varying purposes f
 	javac json.java
 ## Run
 	java json
-## Features
-	Take this and use it anywhere
 ## Contact
-	wesfree163@gmail.com
+	wesley.freeman163@gmail.com
