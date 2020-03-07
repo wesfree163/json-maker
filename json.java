@@ -9,8 +9,8 @@
 public class json {
     private static void jsonBuild(String fileNameInput)throws IOException {
         Scanner kb = new Scanner(System.in);
-        String input, horizontal_options, vertical_options, linearCollection;
-
+        String charCount = "", input, horizontal_options, vertical_options, linearCollection;
+        int i;
         
         //build the json file as a txt file first
         System.out.print("\nJSON FileName: ");
@@ -35,8 +35,8 @@ public class json {
         System.out.println("\nTemplates for json build"
                          + "\n======================="
                          + "\n1: Example JSON"
-                         + "\n2: Resume");
-                        //  + "\n3: Linear Collection"
+                         + "\n2: Resume"
+                         + "\n3: App package template");
                         //  + "\n4: 2D Collection"
                         //  + "\n5: Custom");
         int selection = kb.nextInt();
@@ -54,8 +54,8 @@ public class json {
             experience
             tech stack
             */
-            String charCount = "";
-            int i = 0;
+            charCount = "";
+            i = 0;
             kb.nextLine();
             System.out.println("\n=======================\nRESUME\n");
             writer.write("{");
@@ -91,6 +91,47 @@ public class json {
             writer.write("\n}");
             writer.close();
 
+                break;
+        case 3: //standard app
+            /* HOW MANY TIMES FINNA LOOP
+            name
+            version
+            main
+            */
+            charCount = "";
+            i = 0;
+            kb.nextLine();
+            System.out.println("\n=======================\nTEMPLATE\n");//name of the template structure
+            writer.write("{");//opening curly brace
+            while(true){
+                System.out.println("Section header: Press enter to end process");
+                input = kb.nextLine();
+                charCount = input;
+
+                if(!(charCount.length() == 0)){
+                    if(i > 0){
+                        writer.write(",");
+                    }
+                    writer.write("\n    \"" + input + "\": ");//where it begins writing ("data": for the "attribute")
+                }else{
+                    break;
+                }//end data
+
+                System.out.println("Contents to display: Press enter to end process"); 
+                while(charCount.length() > 0){
+                    horizontal_options = kb.nextLine();
+                    charCount = horizontal_options;
+                    if(charCount.length() == 0){
+                        break;
+                    }else{
+                        writer.write("\"" + horizontal_options + "\"");
+                    }
+                }
+                charCount = input;
+                i++;
+            }
+            writer.write("\n}");
+            writer.close();
                 break;
             default:
                 break;
